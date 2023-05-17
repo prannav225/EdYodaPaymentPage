@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/prannav225/EdYodaPaymentPage/static/css/main.52bcf1c0.css",
+    "main.js": "/prannav225/EdYodaPaymentPage/static/js/main.12d191b6.js",
+    "index.html": "/prannav225/EdYodaPaymentPage/index.html",
+    "main.52bcf1c0.css.map": "/prannav225/EdYodaPaymentPage/static/css/main.52bcf1c0.css.map",
+    "main.12d191b6.js.map": "/prannav225/EdYodaPaymentPage/static/js/main.12d191b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52bcf1c0.css",
+    "static/js/main.12d191b6.js"
+  ]
+}

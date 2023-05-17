@@ -1,0 +1,348 @@
+.ContentContanier {
+    /* Content Container */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #172746;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.MainLookup {
+    /* Main Lockup */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+
+    position: absolute;
+    width: 799px;
+    height: 658px;
+    left: 144px;
+    top: 72px;
+
+}
+
+.pointer {
+    /* Pointer 1 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+
+    width: 799px;
+    height: 64px;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 24px;
+    gap: 10px;
+    position: absolute;
+    width: 30%;
+    height: 85%;
+    left: 55%;
+    top: 10%;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.ProgressBar {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 301px;
+    height: 45px;
+}
+
+
+.stage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 80px;
+    gap: 4px;
+}
+
+.stage>p {
+    margin: 0;
+}
+
+.para {
+    font-size: x-small;
+    font-weight: 500;
+}
+
+.num {
+    color: #FFF;
+    border-radius: 50%;
+    width: 25px;
+    height: fit-content;
+    background-color: #0096FF;
+    text-align: center;
+    font-size: large;
+}
+
+.FormHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.text {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125.3%;
+    /* identical to box height, or 30px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4852;
+}
+
+.radio {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.InputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 501px;
+    height: 43%;
+}
+
+.tag1 {
+    position: absolute;
+    left: 14%;
+    top: 20%;
+
+    border-radius: 0px 0px 4px 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+}
+
+.tag2 {
+    position: absolute;
+    width: 121px;
+    height: 16px;
+    left: 14%;
+    top: 31%;
+
+    border-radius: 0px 0px 4px 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+}
+
+.TextFeild {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    gap: 12px;
+    isolation: isolate;
+
+    width: 441px;
+    height: 20%;
+
+    background: #E7E7E7;
+    border: 2px solid #BEBEBE;
+    border-radius: 4px;
+
+}
+
+.TextFeild2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    gap: 12px;
+    isolation: isolate;
+
+    width: 441px;
+    height: 20%;
+
+    background: #D7EDDD;
+    border: 2px solid #47BA68;
+    border-radius: 4px;
+
+}
+
+.textContanier {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    font-size: small;
+    width: 25vw;
+    height: 0;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 5px;
+    width: 80%;
+    height: 33%;
+    font-size: x-small;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 8px;
+    width: 40px;
+    height: 14px;
+}
+
+.SummaryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 24px;
+    gap: 12px;
+
+    width: 441px;
+    font-size: small;
+
+    background: #FFFFFF;
+    border-top: 2px solid #BEBEBE;
+}
+
+.textContanier2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 420px;
+    height: 10px;
+}
+
+.alert {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 4px;
+    width: 451px;
+    height: 55px;
+    background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+    border-radius: 8px;
+    border: 1px solid red;
+    color: red;
+}
+
+.alertHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    width: 413px;
+    height: 10px;
+}
+
+.alertBody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 224px;
+}
+
+.alertIcon {
+    position: absolute;
+    left: 9.33%;
+    right: 8.33%;
+    top: 75%;
+    bottom: 8.33%;
+    padding: 0px 5px;
+}
+
+.offer {
+    margin: 0px 15px;
+    position: absolute;
+    bottom: 23%;
+}
+
+.secondaryBtn {
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    padding: 10px 70px;
+    margin-right: 30px;
+    border-radius: 3px;
+}
+
+.primaryBtn {
+    background-color:
+        rgba(71, 186, 104, 1);
+    border: 1px solid rgba(71, 186, 104, 1);
+    color: #FFFFFF;
+    padding: 10px 50px;
+    border-radius: 3px;
+}
+
+.IconContainer {
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+}

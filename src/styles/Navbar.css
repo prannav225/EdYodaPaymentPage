@@ -1,0 +1,84 @@
+.navbar {
+    /* Nav Bar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.contanier {
+    /* Container */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 750px;
+}
+
+.leftContent {
+    /* Left Content */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.rightContent {
+    /* Right Content */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.loginBtn {
+    border: none;
+    background: none;
+    width: 130px;
+    height: 39px;
+    border-radius: 39px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    
+}
+.loginBtn:hover{
+    border:#0048FF 1px solid;
+    color: #0048FF;
+}
+.joinnow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 42px;
+    gap: 10px;
+    border: none;
+    width: 166px;
+    height: 40px;
+    color: #FFFFFF;
+    background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+    border-radius: 52px;
+    cursor: pointer;
+}
+.joinnow:hover{
+    background: #FFFFFF;
+    border:#0048FF 1px solid;
+    color: #0048FF;
+}
+select {
+    border: none;
+    color: #000000;
+}

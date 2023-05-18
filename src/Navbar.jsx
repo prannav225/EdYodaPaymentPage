@@ -5,7 +5,7 @@ const Navbar = () => {
         <nav className='navbar'>
             <div className="contanier">
                 <div className="leftContent">
-                    <img src="../assects/EDYODA.png" alt="" width='100px' />
+                    <img src={'images/EDYODA.png'} alt="logo" width='100px' />
                     <select style={{ cursor: 'pointer' }}>
                         <option value="">Courses</option>
                     </select>
@@ -14,7 +14,7 @@ const Navbar = () => {
                     </select>
                 </div>
                 <div className="rightContent">
-                    <img src="../assects/Vector.png" alt="" style={{ cursor: 'pointer' }} />
+                    <img src="images\Vector.png" alt="seacrh" style={{ cursor: 'pointer' }} width='20px' />
                     <button className='loginBtn'>Log In</button>
                     <button className='joinnow'>JOIN NOW</button>
                 </div>

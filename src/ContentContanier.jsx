@@ -87,7 +87,7 @@ const ContentContanier = () => {
                             </div>
                         </div>
                         <div className="tag1">
-                            <img src="/assects/Tag.png" alt="" width='90px' />
+                            <img src="/images/Tag.png" alt="" width='90px' />
                         </div>
                     </div>
                     <div className="TextFeild2">
@@ -103,7 +103,7 @@ const ContentContanier = () => {
                             </div>
                         </div>
                         <div className="tag2">
-                            <img src="assects\Tag (1).png" alt="" width='90px' />
+                            <img src="images\Tag (1).png" alt="" width='90px' />
                         </div>
                     </div>
                     <div className="TextFeild" >
@@ -149,7 +149,7 @@ const ContentContanier = () => {
                         </div>
                         <div className="alertBody">
                             <div className="IconClock">
-                                <img src="assects/alertIcon.png" alt="" className='alertIcon' width='11px' height='10px' />
+                                <img src="images/alertIcon.png" alt="" className='alertIcon' width='11px' height='10px' />
                                 <div>
                                     <p className='offer'>Offer valid till 25th March 2023 </p>
                                 </div>
@@ -170,7 +170,7 @@ const ContentContanier = () => {
                     <button className="primaryBtn">PROCEED TO PAY</button>
                 </div>
                 <div className="IconContainer">
-                    <img src="assects\Frame 12537.png" alt="" width='90px' />
+                    <img src="images\Frame 12537.png" alt="" width='90px' />
                 </div>
             </div>
         </div>
